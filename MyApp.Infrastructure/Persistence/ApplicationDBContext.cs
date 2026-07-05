@@ -37,7 +37,7 @@ namespace MyApp.Infrastructure.Persistence
             base.OnModelCreating(modelBuilder);
         }
 
-        public DbSet<Users> User { get; set; }
+        public DbSet<Users> Users { get; set; }
         public DbSet<UserRoles> UserRoles { get; set; }
         public DbSet<Branches> Branches { get; set; }
         public DbSet<Roles> Roles { get; set; }

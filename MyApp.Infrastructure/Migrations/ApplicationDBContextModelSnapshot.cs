@@ -41,6 +41,9 @@ namespace MyApp.Infrastructure.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -157,7 +160,7 @@ namespace MyApp.Infrastructure.Migrations
 
                     b.HasIndex("BranchId");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("MyApp.Domain.Entities.UserRoles", b =>

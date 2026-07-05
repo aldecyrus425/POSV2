@@ -8,8 +8,8 @@ namespace MyApp.Domain.Entities
 {
     public class Roles
     {
-        public int RoleId { get; private set; }
-        public string RoleName { get; private set; } //Owner, Admin, Cashier
-        public string RoleDescription { get; private set; } = string.Empty;
+        public int RoleId { get; set; }
+        public string RoleName { get; set; } //Owner, Admin, Cashier
+        public string RoleDescription { get; set; } = string.Empty;
     }
 }

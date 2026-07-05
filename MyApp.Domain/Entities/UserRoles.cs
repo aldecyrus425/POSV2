@@ -8,10 +8,10 @@ namespace MyApp.Domain.Entities
 {
     public class UserRoles
     {
-        public int UserRoleId { get; private set; }
-        public Users Users { get; private set; }
-        public int UserId { get; private set; }
-        public Roles Roles { get; private set; }
-        public int RoleId { get; private set; }
+        public int UserRoleId { get; set; }
+        public Users Users { get; set; }
+        public int UserId { get; set; }
+        public Roles Roles { get; set; }
+        public int RoleId { get; set; }
     }
 }

@@ -12,6 +12,7 @@ namespace MyApp.Domain.Entities
         public string Name { get; private set; }
         public string Address { get; private set; }
         public string ContactNumber { get; private set; }
+        public bool IsActive { get; private set; }
         public DateTime CreatedAt { get; private set; } = DateTime.Now;
     }
 }
