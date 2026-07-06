@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "MyApp.API.Controllers.UserController",
+    "Method": "CreateUserAsync",
+    "RelativePath": "api/user",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "MyApp.Application.Features.User.CreateUser.CreateUserCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

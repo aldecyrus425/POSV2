@@ -16,7 +16,7 @@ namespace MyApp.Application.Features.User.CreateUser
         public string Password {  get; set; } = string.Empty;
         public string Contact_Num {  get; set; } = string.Empty;
         public int BranchId { get; set; }
-        public string Role { get; set; } = string.Empty;
+        public int RoleId { get; set; }
         public bool Status { get; set; }
     }
 }

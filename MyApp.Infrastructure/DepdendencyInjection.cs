@@ -22,6 +22,9 @@ namespace MyApp.Infrastructure
             });
 
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IBranchRepository, BranchRepository>();
+            services.AddScoped<IRoleRepository, RoleRepository>();
+            services.AddScoped<IUserRoleRepository, UserRoleRepository>();
             return services;
         }
     }

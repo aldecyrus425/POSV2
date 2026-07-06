@@ -13,10 +13,12 @@ namespace MyApp.Application.Features.User.CreateUser
     {
         private readonly IUserRepository _userRepository;
         private readonly IBranchRepository _branchRepository;
-        public CreateUserHandler(IUserRepository repo, IBranchRepository branchRepo)
+        private readonly IUserRoleRepository _userRoleRepository;
+        public CreateUserHandler(IUserRepository repo, IBranchRepository branchRepo, IUserRoleRepository userRoleRepository)
         {
             _userRepository = repo;
             _branchRepository = branchRepo;
+            _userRoleRepository = userRoleRepository;
         }
 
         public async Task<CreateUserResponse> Handle(CreateUserCommand request, CancellationToken cancellationToken)
@@ -25,12 +27,12 @@ namespace MyApp.Application.Features.User.CreateUser
             {
                 //Validate if the email is duplicate
                 var validateEmail = await _userRepository.GetUserByEmail(request.Email);
-                if (validateEmail == null)
+                if (validateEmail != null)
                 {
                     return new CreateUserResponse
                     {
                         IsSuccess = false,
-                        Message = "User not found."
+                        Message = "Email already existing."
                     };
                 }
 
@@ -59,11 +61,17 @@ namespace MyApp.Application.Features.User.CreateUser
                     ContactNumber = request.Contact_Num,
                     BranchId = request.BranchId,
                     IsActive = request.Status
-
-                    //The Role is in the role repo
                 };
 
                 await _userRepository.AddUserAsync(user);
+
+                var userRole = new UserRoles
+                {
+                    UserId = user.UserId,
+                    RoleId = request.RoleId
+                };
+
+                await _userRoleRepository.InsertUserRoleAsync(userRole);
 
                 return new CreateUserResponse
                 {
@@ -82,5 +90,5 @@ namespace MyApp.Application.Features.User.CreateUser
             }
         }
     }
-}}
+}
 
