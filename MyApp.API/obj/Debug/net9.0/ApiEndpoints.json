@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "MyApp.API.Controllers.RoleController",
+    "Method": "CreateRoleAsync",
+    "RelativePath": "api/role",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "MyApp.Application.Features.Role.CreateRole.CreateRoleCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "MyApp.API.Controllers.UserController",
     "Method": "CreateUserAsync",
     "RelativePath": "api/user",

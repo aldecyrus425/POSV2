@@ -25,7 +25,6 @@ namespace MyApp.Application.Features.User.CreateUser
         {
             try
             {
-                //Validate if the email is duplicate
                 var validateEmail = await _userRepository.GetUserByEmail(request.Email);
                 if (validateEmail != null)
                 {
@@ -37,7 +36,6 @@ namespace MyApp.Application.Features.User.CreateUser
                 }
 
 
-                //Validate if the branch is active
                 var branch = await _branchRepository.GetBranchByIdAsync(request.BranchId);
                 if (branch == null)
                 {
