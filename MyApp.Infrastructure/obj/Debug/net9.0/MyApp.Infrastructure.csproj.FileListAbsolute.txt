@@ -55,3 +55,6 @@ C:\Users\admin\source\repos\POSV2\MyApp.Infrastructure\bin\Debug\net9.0\MyApp.Do
 C:\Users\admin\source\repos\POSV2\MyApp.Infrastructure\obj\Debug\net9.0\MyApp.In.4513676F.Up2Date
 C:\Users\admin\source\repos\POSV2\MyApp.Infrastructure\obj\Debug\net9.0\MyApp.Infrastructure.genruntimeconfig.cache
 C:\Users\admin\source\repos\POSV2\MyApp.Infrastructure\obj\Debug\net9.0\ref\MyApp.Infrastructure.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.Infrastructure\bin\Debug\net9.0\MyApp.Application.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.Infrastructure\bin\Debug\net9.0\MyApp.Application.pdb
+C:\Users\aldec\source\repos\POSV2\MyApp.Infrastructure\obj\Debug\net9.0\MyApp.Infrastructure.sourcelink.json

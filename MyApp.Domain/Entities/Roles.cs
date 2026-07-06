@@ -11,5 +11,7 @@ namespace MyApp.Domain.Entities
         public int RoleId { get; set; }
         public string RoleName { get; set; } //Owner, Admin, Cashier
         public string RoleDescription { get; set; } = string.Empty;
+
+        public ICollection<UserRoles> UserRoles { get; set; }
     }
 }

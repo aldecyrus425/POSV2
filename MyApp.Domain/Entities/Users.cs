@@ -25,5 +25,7 @@ namespace MyApp.Domain.Entities
         public DateTime? UpdatedAt { get; set; }
         public DateTime? DeletedAt { get; set; }
         public bool IsDeleted { get; set; }
+
+        public ICollection<UserRoles> UserRoles { get; set; }
     }
 }

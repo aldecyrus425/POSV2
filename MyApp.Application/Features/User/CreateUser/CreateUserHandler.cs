@@ -54,6 +54,7 @@ namespace MyApp.Application.Features.User.CreateUser
                     FirstName = request.Firstname,
                     MiddleName = request.Middlename,
                     LastName = request.Lastname,
+                    UserName = request.Username,
                     Email = request.Email,
                     PasswordHash = hashPassword,
                     ContactNumber = request.Contact_Num,
@@ -66,7 +67,9 @@ namespace MyApp.Application.Features.User.CreateUser
                 var userRole = new UserRoles
                 {
                     UserId = user.UserId,
-                    RoleId = request.RoleId
+                    Users = user,
+                    RoleId = request.RoleId,
+
                 };
 
                 await _userRoleRepository.InsertUserRoleAsync(userRole);

@@ -529,3 +529,12 @@ C:\Users\admin\source\repos\POSV2\MyApp.API\obj\Debug\net9.0\ref\MyApp.API.dll
 C:\Users\admin\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\admin\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\admin\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\BCrypt-Net-Next.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\FluentValidation.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\MediatR.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.API\bin\Debug\net9.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.API\obj\Debug\net9.0\MyApp.API.sourcelink.json

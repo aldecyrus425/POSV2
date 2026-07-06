@@ -8,11 +8,11 @@ namespace MyApp.Domain.Entities
 {
     public class Branches
     {
-        public int BranchId { get; private set; }
-        public string Name { get; private set; }
-        public string Address { get; private set; }
-        public string ContactNumber { get; private set; }
-        public bool IsActive { get; private set; }
-        public DateTime CreatedAt { get; private set; } = DateTime.Now;
+        public int BranchId { get; set; }
+        public string Name { get; set; }
+        public string Address { get; set; }
+        public string ContactNumber { get; set; }
+        public bool IsActive { get; set; }
+        public DateTime CreatedAt { get; set; }
     }
 }

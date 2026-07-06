@@ -18,6 +18,10 @@ namespace MyApp.Infrastructure.Persistence
             modelBuilder.Entity<Users>(entity =>
             {
                 entity.HasKey(x => x.UserId);
+
+                entity.HasMany(u => u.UserRoles)
+                .WithOne(u => u.Users)
+                .HasForeignKey(ur => ur.UserId);
             });
 
             modelBuilder.Entity<UserRoles>(entity =>
@@ -28,11 +32,16 @@ namespace MyApp.Infrastructure.Persistence
             modelBuilder.Entity<Branches>(entity =>
             {
                 entity.HasKey(x => x.BranchId);
+
             });
 
             modelBuilder.Entity<Roles>(entity =>
             {
                 entity.HasKey(x => x.RoleId);
+
+                entity.HasMany(r => r.UserRoles)
+                .WithOne(ur => ur.Roles)
+                .HasForeignKey(ur => ur.RoleId);
             });
 
             modelBuilder.Entity<Categories>(entity =>
