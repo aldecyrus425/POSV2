@@ -45,3 +45,4 @@ C:\Users\admin\source\repos\POSV2\MyApp.Application\bin\Debug\net9.0\MyApp.Domai
 C:\Users\admin\source\repos\POSV2\MyApp.Application\bin\Debug\net9.0\MyApp.Domain.pdb
 C:\Users\admin\source\repos\POSV2\MyApp.Application\obj\Debug\net9.0\MyApp.Ap.B540CA8A.Up2Date
 C:\Users\admin\source\repos\POSV2\MyApp.Application\obj\Debug\net9.0\ref\MyApp.Application.dll
+C:\Users\aldec\source\repos\POSV2\MyApp.Application\obj\Debug\net9.0\MyApp.Application.sourcelink.json

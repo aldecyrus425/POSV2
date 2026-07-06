@@ -9,6 +9,7 @@ namespace MyApp.Application.Interfaces.Repository
 {
     public interface IBranchRepository
     {
+        Task CreateBranchAsync(Branches branch);
         Task<Branches?> GetBranchByIdAsync(int id);
     }
 }

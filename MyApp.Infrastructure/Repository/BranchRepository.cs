@@ -18,9 +18,17 @@ namespace MyApp.Infrastructure.Repository
             _context = context;
         }
 
+        public async Task CreateBranchAsync(Branches branch)
+        {
+            await _context.Branches.AddAsync(branch);
+            await _context.SaveChangesAsync();
+        }
+
         public async Task<Branches?> GetBranchByIdAsync(int id)
         {
-            return await _context.Branches.FirstOrDefaultAsync(b => b.BranchId == id);
+            return await _context.Branches
+                .Where(b => b.IsActive)
+                .FirstOrDefaultAsync(b => b.BranchId == id);
         }
     }
 }

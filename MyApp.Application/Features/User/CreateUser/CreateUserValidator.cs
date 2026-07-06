@@ -14,6 +14,7 @@ namespace MyApp.Application.Features.User.CreateUser
             RuleFor(x => x.Firstname).NotEmpty();
             RuleFor(x => x.Lastname).NotEmpty();
             RuleFor(x => x.Email).NotEmpty();
+            RuleFor(x => x.Username).NotEmpty();
             RuleFor(x => x.Password).NotEmpty();
             RuleFor(x => x.Contact_Num).NotEmpty();
             RuleFor(x => x.BranchId).GreaterThan(0);
