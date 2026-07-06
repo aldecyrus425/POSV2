@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using MediatR;
+using Microsoft.EntityFrameworkCore;
 using MyApp.Domain.Entities;
 using System;
 using System.Collections.Generic;
@@ -34,6 +35,16 @@ namespace MyApp.Infrastructure.Persistence
                 entity.HasKey(x => x.RoleId);
             });
 
+            modelBuilder.Entity<Categories>(entity =>
+            {
+                entity.HasKey(x => x.CategoryId);
+            });
+
+            modelBuilder.Entity<Units>(entity =>
+            {
+                entity.HasKey(x => x.UnitId);
+            });
+
             base.OnModelCreating(modelBuilder);
         }
 
@@ -41,5 +52,7 @@ namespace MyApp.Infrastructure.Persistence
         public DbSet<UserRoles> UserRoles { get; set; }
         public DbSet<Branches> Branches { get; set; }
         public DbSet<Roles> Roles { get; set; }
+        public DbSet<Categories> Category {  get; set; }
+        public DbSet<Units> Units { get; set; }
     }
 }
