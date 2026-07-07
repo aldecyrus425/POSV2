@@ -12,6 +12,12 @@ namespace MyApp.Application.Features.Product.CreateProduct
 {
     public class CreateProductCommands : IRequest<CreateProductResponse>
     {
+        
+        public IEnumerable<ProductItem> Products { get; set; }
+    }
+
+    public class ProductItem
+    {
         public string Barcode { get; set; }
         public string SKU { get; set; }
         public string Name { get; set; }
@@ -28,7 +34,5 @@ namespace MyApp.Application.Features.Product.CreateProduct
         public DateTime? UpdatedAt { get; set; }
         public DateTime? DeletedAt { get; set; }
         public bool IsDeleted { get; set; }
-
-
     }
 }

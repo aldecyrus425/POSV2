@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace MyApp.Application.Interfaces.Repository
 {
     public interface ICategoryRepository
-    { 
+    {
+        Task<List<Categories>> GetCategoriesByIdsAsync(IEnumerable<int> ids);
         Task CreateCategoryAsync(Categories category);
     }
 }

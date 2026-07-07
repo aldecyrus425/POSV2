@@ -9,6 +9,7 @@ namespace MyApp.Application.Interfaces.Repository
 {
     public interface IUnitRepository
     {
+        Task<List<Units>> getUnitsByIdAsync(IEnumerable<int> ids);
         Task CreateUnitAsync(Units units);
     }
 }
