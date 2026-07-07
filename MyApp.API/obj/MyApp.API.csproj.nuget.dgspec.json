@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.API\\MyApp.API.csproj": {}
+    "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.API\\MyApp.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.API\\MyApp.API.csproj": {
+    "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.API\\MyApp.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.API\\MyApp.API.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.API\\MyApp.API.csproj",
         "projectName": "MyApp.API",
-        "projectPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.API\\MyApp.API.csproj",
-        "packagesPath": "C:\\Users\\aldec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.API\\obj\\",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.API\\MyApp.API.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -34,11 +34,11 @@
             "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj": {
-                "projectPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj"
+              "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj": {
+                "projectPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj"
               },
-              "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj"
+              "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj"
               }
             }
           }
@@ -90,6 +90,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -102,20 +120,20 @@
         }
       }
     },
-    "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj": {
+    "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj",
         "projectName": "MyApp.Application",
-        "projectPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj",
-        "packagesPath": "C:\\Users\\aldec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Application\\obj\\",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -132,8 +150,8 @@
             "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj"
+              "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj"
               }
             }
           }
@@ -166,6 +184,14 @@
             "MediatR": {
               "target": "Package",
               "version": "[14.2.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.17, )"
             }
           },
           "imports": [
@@ -179,6 +205,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -188,20 +228,20 @@
         }
       }
     },
-    "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj": {
+    "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj",
         "projectName": "MyApp.Domain",
-        "projectPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj",
-        "packagesPath": "C:\\Users\\aldec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Domain\\obj\\",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -253,6 +293,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -262,20 +316,20 @@
         }
       }
     },
-    "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
+    "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
         "projectName": "MyApp.Infrastructure",
-        "projectPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\aldec\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Infrastructure\\MyApp.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\aldec\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -292,11 +346,11 @@
             "framework": "net9.0",
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj": {
-                "projectPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj"
+              "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj": {
+                "projectPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Application\\MyApp.Application.csproj"
               },
-              "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj": {
-                "projectPath": "C:\\Users\\aldec\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj"
+              "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\admin\\source\\repos\\POSV2\\MyApp.Domain\\MyApp.Domain.csproj"
               }
             }
           }
@@ -354,6 +408,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[9.0.16, 9.0.16]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

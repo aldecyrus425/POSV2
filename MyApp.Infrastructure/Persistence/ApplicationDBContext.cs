@@ -54,6 +54,11 @@ namespace MyApp.Infrastructure.Persistence
                 entity.HasKey(x => x.UnitId);
             });
 
+            modelBuilder.Entity<Products>(entity =>
+            {
+                entity.HasKey(x => x.ProductId);
+            });
+
             base.OnModelCreating(modelBuilder);
         }
 
@@ -63,5 +68,6 @@ namespace MyApp.Infrastructure.Persistence
         public DbSet<Roles> Roles { get; set; }
         public DbSet<Categories> Category {  get; set; }
         public DbSet<Units> Units { get; set; }
+        public DbSet<Products> Products { get; set; }
     }
 }
